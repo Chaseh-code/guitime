@@ -24,9 +24,9 @@
  )
 
  add_executable(guitime src/main.cpp)
- target_include_directories(gui PRIVATE src)
+ target_include_directories(guitime PRIVATE src)
 
- target_link_libraries(ftxui-starter
+ target_link_libraries(guitime
    PRIVATE ftxui::screen
    PRIVATE ftxui::dom
    PRIVATE ftxui::component # Not needed for this example.
